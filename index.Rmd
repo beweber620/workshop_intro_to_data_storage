@@ -1,10 +1,10 @@
 ---
-title: YOUR WORKSHOP TITLE
-author: [YOUR NAME]
+title: Introduction to Databases and Data Storage Technologies
+author: Dr. Carl G. Stahmer
 date: "`r Sys.Date()`"
 
-github-repo: ucdavisdatalab/YOUR_REPO
-url: "https://ucdavisdatalab.github.io/YOUR_REPO/"
+github-repo: ucdavisdatalab/workshop_intro_to_data_storage
+url: "https://ucdavisdatalab.github.io/workshop_intro_to_data_storage/"
 
 site: "bookdown::bookdown_site"
 knit: "bookdown::render_book"
@@ -16,13 +16,31 @@ output:
           <li><a href="https://datalab.ucdavis.edu/">
             <img src="https://datalab.ucdavis.edu/wp-content/uploads/2019/07/datalab-logo-full-color-rgb-1.png" style="height: 100%; width: 100%; object-fit: contain" />
           </a></li>
-          <li><a href="./" style="font-size: 18px">YOUR WORKSHOP TITLE</a></li>
+          <li><a href="./" style="font-size: 18px">Introduction to Databases and Data Storage Technologies</a></li>
         collapse: section
       sharing: no
-      view: https://github.com/ucdavisdatalab/YOUR_REPO/blob/master/%s
-      edit: https://github.com/ucdavisdatalab/YOUR_REPO/edit/master/%s
+      view: https://github.com/ucdavisdatalab/workshop_intro_to_data_storage/blob/master/%s
+      edit: https://github.com/ucdavisdatalab/workshop_intro_to_data_storage/edit/master/%s
 ---
 
 # Overview {-}
 
-YOUR DESCRIPTION, LEARNING GOALS, PREREQUISITES, ETC
+This reader serves as a reference work for the UC Davis DataLab introductory workshop on databases and other data storage technologies.  The workshop provides a broad overview of the various technologies for storing and organizing different collections of data. Topics covered include: how data structure impacts your storage options; how your research questions could impact your storage options; and guideles on which platforms you might consider for your research based on the previous two considerations. This workshop is a general lecture with Q&A (no laptops necessary) and is a prerequisite for DataLab’s “Getting started with SQL for querying databases” workshop.
+
+## Learning Objectives 
+
+By the end of this workshop, learners should be able to:
+
+– compare and contrast different data storage platforms;
+
+– explain the differences between SQL and noSQL databases;
+
+– explain the components of an Entity Relationship Diagram (ERD);
+
+– define relational keys;
+
+– identify appropriate data storage solutions based on the structure of a research dataset and anticipated research questions.
+
+## Prerequisites
+
+NONE.  This workshops assumes no prior knowledge or experience working with databases or other data storage technologies nor any coding and/or scripting knowledge or experience.
