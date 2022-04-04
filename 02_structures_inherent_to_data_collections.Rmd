@@ -1,1 +1,11 @@
 # Structures Inherent to Data Collections
+
+This unit provides a detailed discussion of the first Principal of Data Storage:
+
+> All Data Has a Structure Inherent to Itself
+
+Data is seldom collected, presented, or used in research in a vacuum. Researchers have reasons why they collect data, people have reasons why post information on Social Media sites like Twitter, Facebook, and TickTock, and digital content publishers and platforms have structures that limit both the types of data that appear and how different, discrete information elements relate to each other on these platforms.
+
+In addition, data oten reflects the nature of real world relationships between events, object, people, and other information as the are connected in the real world. [EXPAND]  
+
+All of the above represent elements of structure that are inherent to the data istelf, considered seperately from any specific technology or method that we use to represent, store, query, and alalyze it.

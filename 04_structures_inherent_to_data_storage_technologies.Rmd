@@ -1,1 +1,11 @@
 # Structures Inherent to Data Storage Technologies
+
+This unit provides a detailed discussion of the third Principal of Data Storage:
+
+> All Data Stores Impose an Underlying Data Structure
+
+Remembering our definition of Data as "information in digital form," we can see that it would be impossible to store this information digitally without imposing some for of organization. At a minimum, any information that we want to place in our data store must be converted into an organized collection of 1s and 0s to be stored digitally.  This, in and of itself, represents a rudimentary data structure.
+
+Additionally, literally all data storage technologies impose further layers of structure as part of the process of storing data.  Consider, for a moment, the most basic form of data store: a File Store.  A File Store saves data as a collection of files on digital storage media.  This may seem fairly structurelss.  However, even this has implications for the data itself.  How do you decide what goes in which file?  How are the files named?  How are the files ordered by the filesystem of the computer operating system that is interacting with the storage media?  etc.  Even these basic considerations have an impact on our interaction with the data.  
+
+In addition to these basic considerations, most commonly used data stored impose additiona, higher level structures of their own designed to facilitate and speed up interaction with the data.  These structures have even greater implications for out interaction with the data.  And understanding these implications is crucial to choosing the best data store for your data.  In this section, we review the underlying data structures imposed by the most common types of data stores in order to help you understand these implications for your research of your choice of data store approach and specific technologies. 
