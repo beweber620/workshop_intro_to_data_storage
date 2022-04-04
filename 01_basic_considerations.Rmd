@@ -1,5 +1,48 @@
 # Basic Considerations
 
+Today’s researcher in search of a data storage platform is confronted with an overwhelming selection of options ranging from simple spreadsheets to complex, non-human-intuitive alternatives such as graph tiple-stores.  (Don’t worry if you don’t know what a graph or a triple-store actually is or have never heard of them.  We’ll cover that later in this unit.)  Wikipedia, for example, currently lists over 130 Database Management Systems (DBMS) as actively in use <https://en.wikipedia.org/wiki/List_of_relational_database_management_systems>.  If we added all of the other, non database, methods available for storing data to this list, our list of available data storage options would easily grow into the thousands.  
+
+Making things even more complicated, most data storage technologies and products are backed and promoted by active user groups who advocate across the internet for their chosen technology with a “one ring to rule them all” type of religious fervor, claiming that their technology is the best for all applications.  This noise can make it difficult for the uninitiated researcher to make good decisions based on their individual needs.  
+
+In truth, there is no “Best” data technology.  Different technologies are better suited to different needs.  So much so, in fact, that it is common to deploy multiple data storage technologies as part of the same research effort, even on the same data, in order to capitalize on the strengths of particular approaches to data storage, preservation, and analysis in order to meet the various needs of a particular research endeavor.  
+
+## Principals of Data Storage
+
+While we will talk about some specific data technologies/products in this workshop, the primary goal of the workshop is to introduce a set of underlying data design and querying principals through which any individual data storage technology can be evaluated to better understand the extent to which it will meet your needs as a researcher.  These principals will help you to both make immediate decisions about how to manage research data given the current set of available options and make decisions in the future as new technologies come online.  
+
+They principals of Data Storage, each of which is covered in detail in the sections that follow, are:
+
+- Principal One:  All Data Has a Structure Inherent to Itself
+- Principal Two:  Different Research Questions are Facilitated by Different Data Structures
+- Principal Three:  All Data Stores Impose an Underlying Data Structure
+- Principal Four:  The "Best" Data Storage Technology for any Research Endevor is the One that Best Synergizes the Inherent Structure of the Data Itself with the Range of Research Questions Being aked of the Data.
+
+## Common Vocabulary
+
+Like most technical topics, discussions about data can be fraught with a range of commonly misunderstood, specialized, and or frequently misused terminology.  So far in this workshop, we have referred to computational systems for storing and retrieving data generically as “data storage technologies,” or some variation thereof.  To this point, we have specifically avoided, as much as possible, the use of terms like “database” and “database management system.”  This is because even these extremely common terms are frequently misused and misunderstood.  It would be difficult, if not impossible, however, to have a meaningful discussion about the storage and retrieval of data without introducing and clarifying some technical terminology.  The short glossary below provides definitions of some key terms that we will rely on for the remainder of the workshop. Items are presented in a progressive order which places more complex terms after the more simple terms on which they rely.
+
+**Data:** “Quantities, characters, or symbols on which operations are performed by a computer, considered collectively. Also (in non-technical contexts): information in digital form.” *Oxford English Dictionary*  
+
+**Data Store:** A generic term describing any mechanism for digitally storing and managing data.  “A repository for persistently storing and managing collections of data which include not just repositories like databases, but also simpler store types such as simple files, emails etc.” *Wikipedia*
+
+**Data Structure:** “In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification.[1][2][3] More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.” *Wikipedia*
+
+All data has a structure, as do all data stores.  (Even Randomness is a structure.)  The most common data structures are covered in detail as part of this workshop.  The key concept to grasp about data structures is that all structures have implications for how easily data can be accessed, manipulated, and analyzed.  For example, data with a random structure requires that significant computational effort be applied to create an ordered list of observations based on a particular value, whereas the same list could be created with minimal computational effort if the data we stored according to this order.
+
+**Data Type:** “A data type or simply type is an attribute of data which tells the compiler or interpreter [or data store query system] how the programmer intends to use the data. Most programming languages support basic data types of integer numbers (of varying sizes), floating-point numbers (which approximate real numbers), characters and Booleans. A data type constrains the values that an expression, such as a variable or a function, might take. This data type defines the operations that can be done on the data, the meaning of the data, and the way values of that type can be stored.” *Wikipedia*
+
+**Database:** “A database is an organized collection of data stored and accessed electronically. Small databases can be stored on a file system, while large databases are hosted on computer clusters or cloud storage. The design of databases spans formal techniques and practical considerations including data modeling, efficient data representation and storage, query languages, security and privacy of sensitive data, and distributed computing issues including supporting concurrent access and fault tolerance.”  *Wikipedia*
+
+Inserting and interacting with Databases requires specialized Software, knows as a Database Management System (DBMS).   
+
+“A database management system (DBMS)is the software that interacts with end users, applications, and the database itself to capture and analyze the data. The DBMS software additionally encompasses the core facilities provided to administer the database. The sum total of the database, the DBMS and the associated applications can be referred to as a database system. Often the term "database" is also used loosely to refer to any of the DBMS, the database system or an application associated with the database.” *Wikipedia*  
+
+Note that people new to Data Science and novice computer users frequently use the word “database” rather than the correct term, “Data Store” (defined above), to refer generically to data storage mechanisms and/or to non-database storage mechanisms.  This is incorrect!
+
+**Query:**  The act of interacting with data in a data store.  Querying can take the form of a specialized query language, such as SQL or XPath, or through file reading, searching, and writing.  The term Query is used to describe both the act of reading from and writing to the data store. 
+
+**Analysis:**  The act of drawing conclusions from data.  Always performed after a query.  
+
 
 
 
