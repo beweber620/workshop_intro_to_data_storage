@@ -1,1 +1,9 @@
 # Structures Implied by Research Questions
+
+The structures inherent in a dateset itself are just one thing a researcher shoudl consider when determining the correct data storage strategy for data.  As noted at the end of the previous section, sometimes a decision is made to completely disregard a datasets inherent organization in favor of an organization that facilitates future engagement with the data.  Undersganding which type of data structure will most effectively support your research is a key step in the research pipeline.
+
+Below, we present a collection of general guidelines to researchers assess the data structure(s) that are best suited to a specific research problem.
+
+## Tabular/Columnar Data
+
+Tabular data several distinct advantages over other methods of structuring data:  First, it is generally the most human readable.  Nearly anyone can open a spreadsheet and make sense of what they see.  Second, applications for reading and manipulating tabular data are ubiquitos.  Nearly everyone has Microsoft Excel, Apple Page, Libre Office, on their computer, which enhances ease of access to data across teams.

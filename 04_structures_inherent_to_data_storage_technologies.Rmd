@@ -6,6 +6,19 @@ This unit provides a detailed discussion of the third Principal of Data Storage:
 
 Remembering our definition of Data as "information in digital form," we can see that it would be impossible to store this information digitally without imposing some for of organization. At a minimum, any information that we want to place in our data store must be converted into an organized collection of 1s and 0s to be stored digitally.  This, in and of itself, represents a rudimentary data structure.
 
+
+
+When Computer Scientists talk about data structures, they frequently distinguish between two primary classes:  *Primitive* and *Non-Primitive*.  Primitive data structures that cannot be further divided into sub-structures.  For example, a variable created to hold Intger values has a primitive structure of Integer.  In some contexts we refer to this as a data type. 
+
+Non-Primitive data strctures are data structures that combine primitive structures into a more complex organization.  Computational data collections such as, for exanple, Arrays, Matrices, and Tables are non-primitive. 
+
+Primitive data structures tend to say something about the nature of the thing itself.  For example, the numeral "6" can be seen as either an Integer or the string character 6.  The primary data structure that a computer programmer uses to represent the numeral would indicate which of these is true.  Non-Primary data structures say more about the relationship between the data that they hold than about their fundamental nature.  Typically, when we place data in a table, for example, we are saying something about how columns and rows relate to each other.  A standard use of the table format, for exmaple, is to define each column as a variable each row as an observation.
+
+
+
+
+
+
 Additionally, literally all data storage technologies impose further layers of structure as part of the process of storing data.  Consider, for a moment, the most basic form of data store: a File Store.  A File Store saves data as a collection of files on digital storage media.  This may seem fairly structurelss.  However, even this has implications for the data itself.  How do you decide what goes in which file?  How are the files named?  How are the files ordered by the filesystem of the computer operating system that is interacting with the storage media?  etc.  Even these basic considerations have an impact on our interaction with the data.  
 
 In addition to these basic considerations, most commonly used data stored impose additiona, higher level structures of their own designed to facilitate and speed up interaction with the data.  These structures have even greater implications for out interaction with the data.  And understanding these implications is crucial to choosing the best data store for your data.  In this section, we review the underlying data structures imposed by the most common types of data stores in order to help you understand these implications for your research of your choice of data store approach and specific technologies. 

@@ -6,6 +6,20 @@ This unit provides a detailed discussion of the first Principal of Data Storage:
 
 Data is seldom collected, presented, or used in research in a vacuum. Researchers have reasons why they collect data, people have reasons why post information on Social Media sites like Twitter, Facebook, and TickTock, and digital content publishers and platforms have structures that limit both the types of data that appear and how different, discrete information elements relate to each other on these platforms.
 
-In addition, data oten reflects the nature of real world relationships between events, object, people, and other information as the are connected in the real world. [EXPAND]  
+In addition, data oten reflects the nature of real world relationships between events, object, people, and other information as the are connected in the real world. For example, data representing a family tree or that tracks the evoltion of thread through Twitter necessarily reflect the relationships of the people and Tweets to each other as they exist in their real world, observable context.
 
 All of the above represent elements of structure that are inherent to the data istelf, considered seperately from any specific technology or method that we use to represent, store, query, and alalyze it.
+
+## Categories of Data Relationship Structures
+
+All data falls into one of X primary cateogires of data relationship structure.  These are:
+
+- Columnar
+- Tree
+- Graph
+- Relational
+- Random (Bag of Data)
+
+
+
+Note that an individual research data set may include data that reflecting a combination of these primary types.   
