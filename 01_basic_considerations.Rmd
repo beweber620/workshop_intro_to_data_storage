@@ -25,7 +25,7 @@ Like most technical topics, discussions about data can be fraught with a range o
 
 **Data Store:** A generic term describing any mechanism for digitally storing and managing data.  “A repository for persistently storing and managing collections of data which include not just repositories like databases, but also simpler store types such as simple files, emails etc.” *Wikipedia*
 
-**Data Structure:** “In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification.[1][2][3] More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.” *Wikipedia*
+**Data Structure:** “In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.” *Wikipedia*
 
 All data has a structure, as do all data stores.  (Even Randomness is a structure.)  The most common data structures are covered in detail as part of this workshop.  The key concept to grasp about data structures is that all structures have implications for how easily data can be accessed, manipulated, and analyzed.  For example, data with a random structure requires that significant computational effort be applied to create an ordered list of observations based on a particular value, whereas the same list could be created with minimal computational effort if the data we stored according to this order.
 
@@ -33,7 +33,7 @@ All data has a structure, as do all data stores.  (Even Randomness is a structur
 
 **Database:** “A database is an organized collection of data stored and accessed electronically. Small databases can be stored on a file system, while large databases are hosted on computer clusters or cloud storage. The design of databases spans formal techniques and practical considerations including data modeling, efficient data representation and storage, query languages, security and privacy of sensitive data, and distributed computing issues including supporting concurrent access and fault tolerance.”  *Wikipedia*
 
-Inserting and interacting with Databases requires specialized Software, knows as a Database Management System (DBMS).   
+Inserting and interacting with Databases requires specialized software, knows as a Database Management System (DBMS).   
 
 “A database management system (DBMS)is the software that interacts with end users, applications, and the database itself to capture and analyze the data. The DBMS software additionally encompasses the core facilities provided to administer the database. The sum total of the database, the DBMS and the associated applications can be referred to as a database system. Often the term "database" is also used loosely to refer to any of the DBMS, the database system or an application associated with the database.” *Wikipedia*  
 
